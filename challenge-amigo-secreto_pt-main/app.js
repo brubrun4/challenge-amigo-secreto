@@ -28,3 +28,27 @@ function exibirNomeNaTela() {
         lista.appendChild(item);
     }
 }
+
+    //ativar o botão de sortear e sortear nome aleatório
+    function sortearAmigo() {
+        let nomeAmigoSecreto = document.querySelector("input").value;
+        if (amigos != "") {
+            let nomeSorteado = amigos[Math. floor(Math. random() * amigos.length)];
+            let resultadoSorteio = document.getElementById("resultado");
+            resultadoSorteio.innerHTML = `Seu amigo secreto é ${nomeSorteado}`;
+                }
+            }
+           
+
+
+
+
+        
+
+
+
+    
+
+
+  
+
